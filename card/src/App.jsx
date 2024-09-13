@@ -1,6 +1,5 @@
 
 
-// import ActiveSlider from './components/ActiveSlider'
 import Home from './components/Home'
 import {Route, Navigate, Routes} from 'react-router-dom'
 import ShoppingCart from './components/ShoppingCart'
@@ -10,6 +9,8 @@ import Clothes from './components/Clothes'
 import Navbar from './components/Navbar'
 import MovingGradient from './components/MovingGradient'
 import Text from './components/Text'
+import Navbar2 from './components/Navbar2'
+import Search from './components/Search'
 
 function App() {
 
@@ -20,11 +21,13 @@ function App() {
       {/* <AboutUs/> */}
       {/* <Clothes/>       */}
       {/* <Navbar/> */}
-      <Text/>
+      {/* <Text/> */}
       {/* <MovingGradient/> */}
+      <Navbar2/>
+      {/* <Search/> */}
       {/* <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='' element={<ActiveSlider/>} />
+      
         <Route path="*" element={<Navigate to="/" />} />
       </Routes> */}
       
